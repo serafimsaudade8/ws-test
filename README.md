@@ -32,6 +32,8 @@ Central files for CSS reset (Erki Meyer's), fonts and global variables.
 
 I have included an example of store usage for a possible global loading state. This is pretty simple, just for demo purposes, but in terms of scalability, we can separate the store by modules (according to specific business units) and those should have the **state**, **getters**, **actions** and **mutations** separated per file for better management.
 
+Happy to provide examples for more complex production apps if needed.
+
 ### GraphQl data loading and management
 
 Used **[Vue-apollo](https://apollo.vuejs.org/)** as a GraphQl client. Since I never worked with graphQl, there are probably several optimisations left to be done here, so take it with a grain of salt. Since the example is pretty straightforward I decided not to add the information loaded to the state management system. In a more complex app this may be required. Check more information on the [Views](#Views) section.
